@@ -1,0 +1,75 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100%;
+    font-weight: bold;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex: 0 0 20%; /* This makes the width of user-login 10% */
+    align-items: center;
+}
+
+.logo-text{
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%; /* Adjust the gap between links as needed */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    flex: 0 0 80%; /* This makes the width of user-login 10% */
+
+    .navbar-link {
+        text-decoration: none;
+        color: black;
+        transition: color 0.3s; /* Add a smooth transition effect for color change */
+        padding: 8px 8px; /* Set padding */
+        border-radius: 8px; /* Add rounded corners */
+    }
+
+    /* Add hover effect */
+    .navbar-link:hover {
+        background-color: #c0cfa0; /* Muted Green */
+        color: white;
+    }
+}
+
+
+
+.user-login {
+    margin-left: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .logo-text{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    nav{
+        flex-direction: column;
+        font-size: 25px;
+    }
+    .navbar-links {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start; /* Align items to the start of the flex container */
+    }
+
+    .navbar-link {
+        margin-bottom: 5px; /* Add spacing between vertically stacked links */
+    }
+}
