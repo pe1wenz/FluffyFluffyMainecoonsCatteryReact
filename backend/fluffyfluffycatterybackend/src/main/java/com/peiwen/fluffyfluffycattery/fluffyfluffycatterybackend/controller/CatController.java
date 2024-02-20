@@ -54,4 +54,9 @@ public class CatController {
         return "Hello there";
     }
 
+    @GetMapping("/")
+    public String index(){
+        return "Welcome to fluffy fluffy maine coons cattery";
+    }
+
 }
