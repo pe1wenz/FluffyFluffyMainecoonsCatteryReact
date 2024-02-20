@@ -1,0 +1,83 @@
+.navbar-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    flex: 0 0 80%; /* Adjust the width as needed */
+}
+
+.app-header{
+    background-color: antiquewhite;
+}
+
+.user-login{
+    display: flex;
+    align-items: center;
+    flex: 0 0 20%;
+    justify-content: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Style for the button */
+.user-login Button {
+    background-color: #fff; /* Set the background color to black */
+    color: #000; /* Set the text color to white */
+    border: 1px solid #c0cfa0; /* Set the border color to black */
+    border-radius: 8px; /* Add rounded corners */
+    padding: 8px 16px; /* Set padding */
+    cursor: pointer; /* Change cursor on hover */
+    font-weight: bold; /* Make the font bold */
+    font-size: 16px; /* Set the font size */
+
+
+    /* Transition for smooth animation */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.user-login Button:hover {
+    background-color: #c0cfa0; /* Muted Green */
+    /*border-color: #fff; !* Change border color to white on hover *!*/
+    border: 0;
+    color: #000; /* Change text color to black on hover */
+}
+
+
+
+.header-line{
+    background-color: #c0cfa0; /* Muted Green */
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+
+
+}
+
+.header-line-text-link{
+    text-decoration: none; /* Remove the underline */
+    color: black; /* Set the text color to black */
+
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar-login{
+        flex-direction: column;
+    }
+
+    .user-login {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+
+
+}
