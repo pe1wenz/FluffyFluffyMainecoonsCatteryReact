@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import Kittens from "./pages/Kittens";
 import OurCat from "./pages/OurCats";
 import Owning from "./pages/Owning";
+import ContactUs from "./pages/ContactUs";
 
 
 function App() {
@@ -30,6 +31,11 @@ function App() {
             <Route path="/owning" element={
                 <Layout>
                     <Owning />
+                </Layout>}
+            />
+            <Route path="/contact-us" element={
+                <Layout>
+                    <ContactUs />
                 </Layout>}
             />
             <Route path="*" element={
