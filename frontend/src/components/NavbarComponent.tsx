@@ -15,7 +15,6 @@ const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     width: 100%;
-    background: red;
 `;
 
 const NavLink = css`
@@ -74,11 +73,15 @@ const NavBtn = styled.div`
     }
 `;
 
-const NavbarComponent= () => {
+interface NavbarProps {
+    toggleDropDown: () => void;
+}
+
+const NavbarComponent: React.FC<NavbarProps> = ({ toggleDropDown }) => {
     return (
         <Nav>
             <Logo to="/">FLUFFY FLUFFY</Logo>
-            <MenuBars/>
+            <MenuBars onClick={toggleDropDown}/>
             <NavMenu>
                 {menuData.map((item, index) => (
                     <NavMenuLinks to={item.link} key={index}>

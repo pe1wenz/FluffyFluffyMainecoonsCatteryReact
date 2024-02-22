@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
@@ -8,13 +8,26 @@ import Owning from "./pages/Owning";
 import ContactUs from "./pages/ContactUs";
 import GlobalStyles from "./globalStyles";
 import NavbarComponent from "./components/NavbarComponent";
+import Hero from "./components/Hero";
+import {SliderData} from "./data/SliderData";
+import Dropdown from "./components/Dropdown";
+import InfoSection from "./components/InfoSection";
+import {InfoData} from "./data/InfoData";
 
 
 function App() {
+    const [isDropDownOpen, setIsDropDownOpen] = useState(false)
+
+    const toggleDropDown = () =>{
+        setIsDropDownOpen(!isDropDownOpen)
+    }
   return (
       <>
           <GlobalStyles />
-          <NavbarComponent />
+          <NavbarComponent toggleDropDown={toggleDropDown}/>
+          <Dropdown isDropDownOpen={isDropDownOpen} toggleDropDown={toggleDropDown}/>
+          <Hero slides={SliderData}/>
+          <InfoSection {...InfoData}/>
       </>
       // <Router>
       //   <Routes>
