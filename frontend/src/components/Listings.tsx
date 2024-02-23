@@ -85,22 +85,22 @@ const Listings = () => {
         <Section>
             <Container>
                 <Heading>
-                    <h1> new heading</h1>
+                    <h1> Our Kittens</h1>
                 </Heading>
                 <InfoRow>
                     <InfoWrap>
-                        <Image src={ImageOne} alt="home"/>
-                        <h2> info info inf info info</h2>
-                        <InfoLink to='/homes'>
-                            <p> view details</p>
+                        <Image src={ImageOne} alt="kitten image"/>
+                        <h2> Litter F</h2>
+                        <InfoLink to='/kittens/litter-f'>
+                            <p>view details</p>
                             <Arrow/>
                         </InfoLink>
                     </InfoWrap>
                     <InfoWrap>
-                        <Image src={ImageTwo} alt="home"/>
-                        <h2> info2info2info2</h2>
-                        <InfoLink to='/homes'>
-                            <p> view details 2</p>
+                        <Image src={ImageTwo} alt="kittem image"/>
+                        <h2> Litter E</h2>
+                        <InfoLink to='/kittens/litter-e'>
+                            <p> view details</p>
                             <Arrow/>
                         </InfoLink>
                     </InfoWrap>

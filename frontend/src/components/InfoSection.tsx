@@ -87,7 +87,7 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, reverse,
                     <h1>{heading}</h1>
                     <p>{paragraphOne}</p>
                     <p>{paragraphTwo}</p>
-                    <Button to={"/home"} primary={true}>
+                    <Button to={"/our-cats"} primary={true}>
                         {buttonLabel}
                         <Arrow/>
                     </Button>
