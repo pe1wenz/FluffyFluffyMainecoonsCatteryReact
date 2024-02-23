@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React , {useState, useEffect}from 'react';
+import { Link , useLocation} from 'react-router-dom';
 // import '../assets/css/NavbarComponent.css'; // Import the CSS file
 import catLogo from '../assets/images/cat-logo.jpg'
 import styled, {css} from "styled-components";
@@ -25,11 +25,34 @@ const NavLink = css`
     height: 100%;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.3s;
+    
+    & span {
+        position: relative;
+    }
+
+    & span:hover::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    &:hover{
+        transform: translateY(-2px);
+    }
 `;
 
 const Logo = styled(Link)`
     ${NavLink};
     font-style: italic;
+    &:hover{
+        border-bottom: 0;
+        transform: translateY(-2px);
+    }
 `;
 
 const MenuBars = styled(FaBars)`
@@ -78,53 +101,52 @@ interface NavbarProps {
 }
 
 const NavbarComponent: React.FC<NavbarProps> = ({ toggleDropDown }) => {
+    const [navbar, setNavbar] = useState(false);
+    const location = useLocation()
+
+    const changeBackGround = () =>{
+        if(window.scrollY >= 60){
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    };
+
+    useEffect(() =>{
+        const watchScroll = () =>{
+            window.addEventListener('scroll', changeBackGround)
+        };
+
+        watchScroll();
+
+        return () =>{
+            window.removeEventListener('scroll', changeBackGround)
+        };
+    }, []);
+
+    let style = {
+        backgroundColor: navbar || location.pathname !== "/" ? '#CD853F' : 'transparent',
+        transition: '0.4s'
+    }
+
     return (
-        <Nav>
+        <Nav style={style}>
             <Logo to="/">FLUFFY FLUFFY</Logo>
             <MenuBars onClick={toggleDropDown}/>
             <NavMenu>
                 {menuData.map((item, index) => (
                     <NavMenuLinks to={item.link} key={index}>
-                        {item.title}
+                        <span>{item.title}</span>
                     </NavMenuLinks>
                 ))}
             </NavMenu>
             <NavBtn>
-                <Button to="/" primary={true}>
+                <Button to="/about-us" primary={true}>
                     Contact Us
                 </Button>
             </NavBtn>
         </Nav>
     );
 };
-
-//
-// const NavbarComponent: React.FC = () => {
-//   return (
-//       <nav>
-//         <Link to="/" className="navbar-link logo">
-//           <img src={catLogo} width="80" height="80" alt="Cattery Logo" />
-//             <h5 className="logo-text"> Fluffy Fluffy</h5>
-//         </Link>
-//         <div className="navbar-links">
-//           <Link to="/" className="navbar-link">
-//               Home
-//           </Link>
-//           <Link to="/kittens" className="navbar-link">
-//             Kittens
-//           </Link>
-//           <Link to="/our-cats" className="navbar-link">
-//             Our Cats
-//           </Link>
-//           <Link to="/owning" className="navbar-link">
-//             Owning
-//           </Link>
-//             <Link to="/contact-us" className="navbar-link">
-//                 Contact Us
-//             </Link>
-//         </div>
-//       </nav>
-//   );
-// };
 
 export default NavbarComponent;

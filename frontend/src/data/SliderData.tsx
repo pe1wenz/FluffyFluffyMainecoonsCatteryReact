@@ -5,35 +5,35 @@ import ImageFour from '../assets/images/slider_imgs/slider_img4.jpeg'
 
 export const SliderData = [
     {
-        title: 'first title',
-        price: 'this is the price',
-        path: '/home',
-        label: 'View Home',
+        title: 'Kittens',
+        comment: 'See Our Current and Past Kittens',
+        path: '/kittens',
+        label: 'View Kittens',
         image: ImageOne,
-        alt:'first slide'
+        alt:'home kitten slide'
     },
     {
-        title: 'second title',
-        price: 'this is the price',
-        path: '/home',
-        label: 'view scound thing',
+        title: 'Our Cats',
+        comment: 'See Our Lovely King and Queens',
+        path: '/our-cats',
+        label: 'View',
         image: ImageTwo,
-        alt:'second slide'
+        alt:'home king and queens slide'
     },
     {
-        title: 'third title',
-        price: 'this is the price',
-        path: '/home',
-        label: 'view third thing',
+        title: 'Owning',
+        comment: 'Information about owning our kittens',
+        path: '/owning',
+        label: 'View',
         image: ImageThree,
-        alt:'third slide'
+        alt:'home owning information slide'
     },
     {
-        title: 'fourth title',
-        price: 'this is the price',
-        path: '/home',
-        label: 'view fourth thing',
+        title: 'About Us',
+        comment: 'Information about us',
+        path: '/about-us',
+        label: 'Who we are',
         image: ImageFour,
-        alt:'fourth slide'
+        alt:'home about us information slide'
     }
 ]

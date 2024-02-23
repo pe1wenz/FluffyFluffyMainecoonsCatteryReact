@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import {Button} from "./Button";
+import {IoMdArrowRoundForward} from "react-icons/io";
 
 const Section = styled.section`
     width: 100%;
@@ -61,6 +62,11 @@ const ColumnRight = styled.div<ColumnLeftRightProps>`
         }
     }
 `;
+
+const Arrow = styled(IoMdArrowRoundForward)`
+    margin-left: 0.5rem;
+`;
+
 interface InfoSectionProps{
     heading: string,
     paragraphOne: string,
@@ -83,6 +89,7 @@ const InfoSection = ({heading, paragraphOne, paragraphTwo, buttonLabel, reverse,
                     <p>{paragraphTwo}</p>
                     <Button to={"/home"} primary={true}>
                         {buttonLabel}
+                        <Arrow/>
                     </Button>
                 </ColumnLeft>
                 <ColumnRight reverse={reverse}>

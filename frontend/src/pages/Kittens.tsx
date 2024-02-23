@@ -1,9 +1,42 @@
-function Kittens() {
+import React from "react";
+const Kittens =() => {
     return (
         <div>
-            this is kittens page
+            <p>this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+            </p>
+            <p>this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+            </p>
+            <p>this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+                this is kittens page
+            </p>
         </div>
-    )
-}
+    );
+};
 
 export default Kittens;

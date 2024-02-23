@@ -11,7 +11,7 @@ interface HeroProps {
 interface Slide {
     image: string;
     title: string;
-    price: string;
+    comment: string;
     label: string;
     path: string;
     alt: string;
@@ -219,7 +219,7 @@ const Hero: React.FC<HeroProps> = ({ slides }) => {
                                 />
                                 <HeroContent>
                                     <h1>{slide.title}</h1>
-                                    <p>{slide.price}</p>
+                                    <p>{slide.comment}</p>
                                     <StyledButton to={slide.path} primary={true}>
                                         {slide.label}
                                         <Arrow />
