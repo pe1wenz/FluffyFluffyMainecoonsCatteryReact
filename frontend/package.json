@@ -26,7 +26,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "clean": "gh-pages-clean"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +51,7 @@
   },
   "devDependencies": {
     "@types/react-router-bootstrap": "^0.26.6"
-  }
+  },
+  "homepage": "https://pe1wenz.github.io/FluffyFluffyMainecoonsCatteryReact"
+
 }
