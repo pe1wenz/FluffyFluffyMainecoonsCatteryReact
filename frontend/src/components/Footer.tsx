@@ -26,7 +26,7 @@ const Container = styled.div`
 const FooterTop = styled.div`
     display: flex;
     flex-direction: row;
-    padding: 4rem 0;
+    padding: 4rem 0 0;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -138,7 +138,7 @@ const Footer = () =>{
             <Container>
                 <FooterTop>
                     <Quote>
-                        <h3>Welcome to Fluffy Fluffy</h3>
+                        <h3>Fluffy Fluffy</h3>
                     </Quote>
                     <FooterInfo>
                         <h4> Contact Us</h4>
@@ -148,7 +148,7 @@ const Footer = () =>{
                     </FooterInfo>
                     <FooterInfo>
                         <h4> Location</h4>
-                        <a href="https://www.google.com/maps/place/Christiansburg,+VA,+USA" target="_blank">Christiansburg,
+                        <a href="https://www.google.com/maps/place/Christiansburg,+VA,+USA" target="_blank" rel="noreferrer">Christiansburg,
                             Virginia, USA</a>
                     </FooterInfo>
                 </FooterTop>

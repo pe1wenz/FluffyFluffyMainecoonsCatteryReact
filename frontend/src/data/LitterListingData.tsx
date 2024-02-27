@@ -59,7 +59,7 @@ export const LitterFListingData = [
             {
                 title: 'Miss.Faith',
                 comment: '4weeks',
-                path: '',
+                path: 'https://www.youtube.com/embed/j72vmm42th8',
                 label: 'View Video',
                 image: Faith4W1,
                 alt:'Miss Faith slide 1'
@@ -67,7 +67,7 @@ export const LitterFListingData = [
             {
                 title: 'Miss.Faith',
                 comment: '4weeks',
-                path: '',
+                path: 'https://www.youtube.com/embed/j72vmm42th8',
                 label: 'View Video',
                 image: Faith4W2,
                 alt:'Miss Faith slide 2'
@@ -75,7 +75,7 @@ export const LitterFListingData = [
             {
                 title: 'Miss.Faith',
                 comment: '4weeks',
-                path: '',
+                path: 'https://www.youtube.com/embed/j72vmm42th8',
                 label: 'View Video',
                 image: Faith4W3,
                 alt:'Miss Faith slide 3'
@@ -83,7 +83,7 @@ export const LitterFListingData = [
             {
                 title: 'Miss.Faith',
                 comment: '4weeks',
-                path: '',
+                path: 'https://www.youtube.com/embed/j72vmm42th8',
                 label: 'View Video',
                 image: Faith4W4,
                 alt:'Miss Faith slide 4'
@@ -91,7 +91,7 @@ export const LitterFListingData = [
             {
                 title: 'Miss.Faith',
                 comment: '4weeks',
-                path: '',
+                path: 'https://www.youtube.com/embed/j72vmm42th8',
                 label: 'View Video',
                 image: Faith4W5,
                 alt:'Miss Faith slide 5'
@@ -99,7 +99,7 @@ export const LitterFListingData = [
             {
                 title: 'Miss.Faith',
                 comment: '4weeks',
-                path: '',
+                path: 'https://www.youtube.com/embed/j72vmm42th8',
                 label: 'View Video',
                 image: Faith4W6,
                 alt:'Miss Faith slide 6'
@@ -312,20 +312,62 @@ export const LitterFListingData = [
     }
 ]
 
-export const LittersListingData = [
+export const LitterFCoverListingData = [
     {
-        litterName:'Litter F',
-        litterCoverImage:litterFCoverImage,
-        litterBirthday:'07/10/2023',
-        litterLink:'litter-f',
-        LitterFListingData
+        name: 'Litter F',
+        gender:'',
+        color:'',
+        birthday:'07/10/2023',
+        availability:'',
+        path:'litter-f',
+        litterName:'F',
+        images: [
+            {
+                title: 'Mr.Farley',
+                comment: '4weeks',
+                path: 'litter-f',
+                label: 'View Litter',
+                image: Farley4W1,
+                alt:'Mr Farley slide'
+            },
+            {
+                title: 'Miss.Faith',
+                comment: '4weeks',
+                path: 'litter-f',
+                label: 'View Litter',
+                image: Faith4W1,
+                alt:'Miss Faith slide 1'
+            }
+        ],
     }
-    ,
+]
+
+export const LitterECoverListingData = [
     {
-        litterName:'Litter F',
-        litterCoverImage:litterFCoverImage,
-        litterBirthday:'07/10/2023',
-        litterLink:'litter-f',
-        LitterFListingData
+        name: 'Litter E',
+        gender:'',
+        color:'',
+        birthday:'07/10/2023',
+        availability:'',
+        path:'litter-e',
+        litterName:'E',
+        images: [
+            {
+                title: 'Mr.Farley',
+                comment: '4weeks',
+                path: 'litter-E',
+                label: 'View Litter',
+                image: Farley4W1,
+                alt:'Mr Farley slide'
+            },
+            {
+                title: 'Miss.Faith',
+                comment: '4weeks',
+                path: 'litter-E',
+                label: 'View Litter',
+                image: Faith4W1,
+                alt:'Miss Faith slide 1'
+            }
+        ],
     }
 ]

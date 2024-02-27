@@ -25,7 +25,7 @@ function App() {
           <NavbarComponent toggleDropDown={toggleDropDown}/>
           <Dropdown isDropDownOpen={isDropDownOpen} toggleDropDown={toggleDropDown}/>
           <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
               <Route path="/kittens" element={<Kittens />}/>
               <Route path="/our-cats" element={<OurCats />} />
               <Route path="/owning" element={<Owning />} />

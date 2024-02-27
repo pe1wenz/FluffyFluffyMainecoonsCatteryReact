@@ -7,8 +7,8 @@ import ImageTwo from '../assets/images/slider_imgs/slider_img2.jpeg'
 
 const Section = styled.section`
     width: 100%;
-    height: 100%;
-    padding: 10rem calc((100vw - 1300px) / 2);
+    height: 50%;
+    padding: 3rem calc((100vw - 1300px) / 2);
 `;
 
 const Container = styled.div`
@@ -16,8 +16,8 @@ const Container = styled.div`
 `;
 const Heading = styled.div`
     font-size: 1.5rem;
-    padding: 2rem 3rem;
-    margin-bottom: 40px;
+    padding: 0.5rem 3rem 1rem;
+    margin-bottom: 20px;
 
     @media screen and (max-width: 768px) {
         text-align: start;
@@ -26,33 +26,50 @@ const Heading = styled.div`
 
 const InfoRow = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     padding: 1rem 2rem;
     justify-content: space-between;
-    
+
     @media screen and (max-width: 768px){
         flex-direction: column;
     }
 `;
+interface LitterInfoProps {
+    image: string;
+    alt: string;
+    litterName: string;
+    to: string;
+}
+const LitterInfo: React.FC<LitterInfoProps>  = ({ image, alt, litterName, to }) => {
+    return (
+        <InfoWrap>
+            <Image src={image} alt={alt} />
+            <h2>{litterName}</h2>
+            <InfoLink to={to}>
+                <p>View details</p>
+                <Arrow />
+            </InfoLink>
+        </InfoWrap>
+    );
+};
 const InfoWrap = styled.div`
-    padding: 0 1rem;
-    min-height: 550px;
+    flex: 0 0 calc(50% - 1rem);
+    padding: 1rem 1rem;
+    min-height: 350px;
     height: 100%;
-    
+
     h2 {
         margin-bottom: 1rem;
         font-weight: 400;
     }
 
-    &:nth-child(2) {
-        margin-top: 120px;
-        @media screen and (max-width: 768px) {
-            margin-top: 0;
-        }
+    &:nth-child(2n) {
+        margin-top: 0;
     }
-    
+
     @media screen and (max-width: 768px) {
         margin-bottom: 1rem;
+        flex: 0 0 100%;
     }
 `;
 
@@ -86,25 +103,15 @@ const Listings = () => {
         <Section>
             <Container>
                 <Heading>
-                    <h1> Our Kittens</h1>
+                    <h1> Our Litters</h1>
                 </Heading>
                 <InfoRow>
-                    <InfoWrap>
-                        <Image src={ImageOne} alt="kitten image"/>
-                        <h2> Litter F</h2>
-                        <InfoLink to='/kittens/litter-f'>
-                            <p>view details</p>
-                            <Arrow/>
-                        </InfoLink>
-                    </InfoWrap>
-                    <InfoWrap>
-                        <Image src={ImageTwo} alt="kittem image"/>
-                        <h2> Litter E</h2>
-                        <InfoLink to='/kittens/litter-e'>
-                            <p> view details</p>
-                            <Arrow/>
-                        </InfoLink>
-                    </InfoWrap>
+                    <LitterInfo image={ImageOne} alt="kitten image" litterName="Litter F" to="/kittens/litter-f" />
+                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter E" to="/kittens/litter-e" />
+                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter D" to="/kittens/litter-e" />
+                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter C" to="/kittens/litter-e" />
+                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter B" to="/kittens/litter-e" />
+                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter A" to="/kittens/litter-e" />
                 </InfoRow>
             </Container>
         </Section>

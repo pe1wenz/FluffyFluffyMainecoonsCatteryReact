@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import {LittersListingData} from "../data/LitterListingData";
+import {LitterFListingData, LitterFCoverListingData, LitterECoverListingData} from "../data/LitterListingData";
 import {IoMdArrowRoundForward} from "react-icons/io";
 import {Button} from "../components/Button";
+import Litter from "./Litter";
 
 
 const KittensSection = styled.section`
@@ -82,27 +83,47 @@ const Arrow = styled(IoMdArrowRoundForward)`
 const CustomButton = styled(Button)`
 margin-bottom: 1rem`;
 
-const litters = LittersListingData
+const litters = LitterFCoverListingData
+
+const LitterWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+
+    > div {
+        flex: 0 0 35%; /* Set the maximum width to 35% */
+        margin-bottom: 20px; /* Adjust as needed */
+
+        @media screen and (max-width: 768px) {
+            flex: 0 0 100%; /* On smaller screens, make it full width */
+        }
+    }
+`;
 
 const Kittens =() => {
     return (
         <KittensSection>
-            <Heading>
-                <h1>Our Litters</h1>
-            </Heading>
-            <KittensWrapper>
-                {litters.map((litter, index) =>(
-                    <LitterWrap>
-                        <Image src={litter.litterCoverImage} alt="litter cover image" />
-                        <h2>{litter.litterName}</h2>
-                        <h3>{litter.litterBirthday}</h3>
-                        <CustomButton to={`/kittens/${litter.litterLink}`} target="_blank" rel="noopener noreferrer">
-                            <p>view details</p>
-                            <Arrow />
-                        </CustomButton>
-                    </LitterWrap>
-                ))}
-            </KittensWrapper>
+            {/*<Heading>*/}
+            {/*    <h1>Our Litters</h1>*/}
+            {/*</Heading>*/}
+            <LitterWrapper>
+                <Litter kittensData={LitterFCoverListingData} />
+                <Litter kittensData={LitterECoverListingData} />
+            </LitterWrapper>
+            {/*<KittensWrapper>*/}
+            {/*    {litters.map((litter, index) =>(*/}
+            {/*        <LitterWrap>*/}
+            {/*            <Image src={litter.litterCoverImage} alt="litter cover image" />*/}
+            {/*            <h2>{litter.litterName}</h2>*/}
+            {/*            <h3>{litter.litterBirthday}</h3>*/}
+            {/*            <CustomButton to={`/kittens/${litter.litterLink}`} target="_blank" rel="noopener noreferrer">*/}
+            {/*                <p>view details</p>*/}
+            {/*                <Arrow />*/}
+            {/*            </CustomButton>*/}
+            {/*        </LitterWrap>*/}
+            {/*    ))}*/}
+            {/*</KittensWrapper>*/}
         </KittensSection>
 );
 };

@@ -7,8 +7,8 @@ import {IoMdArrowRoundForward} from "react-icons/io";
 const cfaPageUrl = 'https://find-a-breeder.cfa.org/listing/fluffyfluffy/';
 
 const Section = styled.section`
-    background: #000d1a;
-    padding: 12rem 0;
+    background: rgba(0, 13, 26, 0.94);
+    padding: 12rem 0 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,10 +29,10 @@ const Wrap = styled.div`
 `;
 const Content = styled.div`
     flex: 0 0 50%;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 950px) {
         flex: 0 0 100%;
         max-width: 100%;
-        margin-top: 250px;
+        margin-top: 220px;
     }
     
     h1 {
@@ -55,16 +55,18 @@ const ColumnLeft = styled.div`
 
 const ColumnRight = styled.div`
     position: absolute;
-    top: -80px;
+    top: -100px;
     right: 0;
     max-width: 850px;
+    max-height: 820px;
     height: 140%;
     width: 45%;
     padding-left: 1rem;
+    padding-bottom: 2rem;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 950px) {
         height: 320px;
-        top: -65px;
+        top: -95px;
         width: 80%;
         margin: 0 auto;
         left: 0;

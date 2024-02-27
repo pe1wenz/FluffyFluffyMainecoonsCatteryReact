@@ -81,8 +81,20 @@ const NavMenu = styled.div`
     }
 `;
 
-const NavMenuLinks = styled(Link)`
+const NavMenuLinks = styled(Link)<{ isCurrent: boolean }>`
     ${NavLink};
+    ${props => props.isCurrent && props.to !== '/' ? `
+        & span::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 100%;
+            height: 2px;
+            border-bottom: 1px solid #ffffff;
+        }
+    ` : ''}
+
 `;
 
 const NavBtn = styled.div`
@@ -130,11 +142,14 @@ const NavbarComponent: React.FC<NavbarProps> = ({ toggleDropDown }) => {
 
     return (
         <Nav style={style}>
-            <Logo to="/">FLUFFY FLUFFY</Logo>
+            <Logo to="/home">FLUFFY FLUFFY</Logo>
             <MenuBars onClick={toggleDropDown}/>
             <NavMenu>
                 {menuData.map((item, index) => (
-                    <NavMenuLinks to={item.link} key={index}>
+                    <NavMenuLinks to={item.link}
+                                  key={index}
+                                  isCurrent={location.pathname.startsWith(item.link)}
+                    >
                         <span>{item.title}</span>
                     </NavMenuLinks>
                 ))}
