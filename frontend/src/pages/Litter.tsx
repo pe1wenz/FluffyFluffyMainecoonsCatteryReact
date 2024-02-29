@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import Hero from "../components/Hero";
-import {FaYoutube} from "react-icons/fa";
+import Gallery from "../components/Gallery";
+import {defaultPhotos} from "../data/LitterListingData";
 
 interface LitterProps {
     kittensData: KittenData[];
@@ -144,6 +145,7 @@ const Litter: React.FC<LitterProps> =({kittensData}) => {
                                </KittenDetailInfo>
                            </KittenInfoWrapper>
                            <CustomHeroContainer>
+                               {/*<Gallery photos={defaultPhotos} />*/}
                                <Hero slides={kitten.images}/>
                                {/*<YoutubeLinkIcon>*/}
                                {/*    <a href={kitten.path} rel="noopener noreferrer" target="_blank">*/}

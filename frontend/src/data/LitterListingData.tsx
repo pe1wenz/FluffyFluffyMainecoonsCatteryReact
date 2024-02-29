@@ -371,3 +371,8 @@ export const LitterECoverListingData = [
         ],
     }
 ]
+
+export const defaultPhotos = [
+    { src: Farley4W1, width: 800, height: 600 },
+    { src: Faith4W1, width: 1600, height: 900 },
+];
