@@ -6,6 +6,7 @@ import {InfoData} from "../data/InfoData";
 import Listings from "../components/Listings";
 import Features from "../components/Features";
 import styled from "styled-components";
+import ScrollUpFadeIn from "../components/ScrollUpFadeIn";
 
 const HeroContainer = styled.div`
     height: 100vh;
@@ -14,12 +15,19 @@ const HeroContainer = styled.div`
 const Home = () =>{
     return(
         <>
+
             <HeroContainer>
                 <Hero slides={SliderData}/>
             </HeroContainer>
-            <InfoSection {...InfoData}/>
-            <Listings />
-            <Features />
+            <ScrollUpFadeIn  >
+                <InfoSection {...InfoData}/>
+            </ScrollUpFadeIn>
+            <ScrollUpFadeIn>
+                <Listings />
+            </ScrollUpFadeIn>
+            <ScrollUpFadeIn >
+                <Features />
+            </ScrollUpFadeIn>
         </>
     )
 }

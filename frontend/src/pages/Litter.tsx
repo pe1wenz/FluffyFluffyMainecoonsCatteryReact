@@ -156,6 +156,7 @@ const Litter: React.FC<LitterProps> =({kittensData}) => {
                        </PhotoSetWrapper>
                    ))}
                </KittenWrapper>
+
         </LitterSection>
     );
 };
