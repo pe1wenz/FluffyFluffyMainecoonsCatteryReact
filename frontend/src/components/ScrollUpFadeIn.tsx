@@ -63,7 +63,8 @@ const ScrollUpFadeIn: React.FC<ScrollUpFadeInProps> = ({children,
     }, [threshold]);
 
 
-    return (<ScrollUpFadeInWrapper isVisible={isVisible} onClick={onClick}>
+    return (
+        <ScrollUpFadeInWrapper isVisible={isVisible} onClick={onClick}>
         <div ref={myRef}>
             {children}
         </div>

@@ -1,5 +1,7 @@
 import ImageOne from '../assets/images/slider_imgs/slider_img1.jpeg'
 import ImageTwo from '../assets/images/slider_imgs/slider_img2.jpeg'
+import KittensFeaturesImg from '../assets/images/slider_imgs/slider_img3.jpeg'
+
 export const InfoData = {
     heading: 'About Maine Coon Cat',
     paragraphOne: 'The Maine Coon is a beloved domestic cat breed known ' +
@@ -25,3 +27,19 @@ export const InfoDataTwo = {
     reverse: true,
     delay: 300
 }
+
+export const KittensFeatures = {
+    heading: "Adorable Kittens Waiting for You",
+    paragraph1: "Explore our latest litters of cute and playful kittens.",
+    paragraph2: "Find your perfect feline companion with Fluffy Fluffy Cattery.",
+    button1Text: "Application Portal",
+    button1Link: "/kittens",
+    button2Text: "How To Apply",
+    button2Link: "/contact",
+    imageSrc: KittensFeaturesImg,
+    // customButton: {
+    //     text: "Learn More",
+    //     link: "https://example.com/learn-more",
+    // },
+};
+

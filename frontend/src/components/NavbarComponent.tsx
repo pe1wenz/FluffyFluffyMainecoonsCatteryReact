@@ -136,7 +136,7 @@ const NavbarComponent: React.FC<NavbarProps> = ({ toggleDropDown }) => {
     }, []);
 
     let style = {
-        backgroundColor: navbar || location.pathname !== "/" ? '#CD853F' : 'transparent',
+        backgroundColor: navbar || location.pathname !== "/home" ? '#CD853F' : 'transparent',
         transition: '0.4s'
     }
 

@@ -37,3 +37,30 @@ export const SliderData = [
         alt:'home about us information slide'
     }
 ]
+
+export const OurCatsSliderData = [
+    {
+        title: 'Lucky',
+        comment: 'King',
+        path: '',
+        label: '',
+        image: ImageOne,
+        alt:'king lucky slide'
+    },
+    {
+        title: 'Orange',
+        comment: 'Queen',
+        path: '',
+        label: '',
+        image: ImageTwo,
+        alt:'queen orange slide'
+    },
+    {
+        title: 'Sesame',
+        comment: 'Queen',
+        path: '',
+        label: '',
+        image: ImageThree,
+        alt:'queen sesame slide'
+    }
+]

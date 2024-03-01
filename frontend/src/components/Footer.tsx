@@ -50,8 +50,11 @@ const FooterInfo = styled.div`
         transition: 0.3s;
         color: white;
         text-decoration: none;
+        display: inline-flex;
+        
         &:hover{
             transform: translateY(-2px);
+            border-bottom: solid 1px #cd853f;
         }
     }
 
@@ -59,6 +62,7 @@ const FooterInfo = styled.div`
         padding: 1rem 0;
     }
 `;
+
 const FooterBottom = styled.div`
     display: flex;
     padding: 2rem 0;
@@ -78,6 +82,11 @@ const SocialIcons = styled.div`
         margin-bottom: 2rem;
         width: 100%;
         flex-direction: column;
+        //a{
+        //    width: auto;
+        //    height: auto;
+        //    margin-bottom: 1rem;
+        //}
     }
     
     
@@ -90,11 +99,13 @@ const Icons = css`
 
     transition: 0.3s;
     &:hover{
-        transform: translateY(-2px);
+        transform: scale(1.5) translateY(-2px);        
     }
 
     @media screen and (max-width: 768px) {
         margin-bottom: 1.5rem;
+        width: 48px;
+        height: 48px;
     }
 `;
 
@@ -165,9 +176,9 @@ const Footer = () =>{
                         </a>
                     </SocialIcons>
                     <Contact>
-                        <Button to='/homes'>
-                            Let's Chat <IoMdArrowRoundForward />
-                        </Button>
+                        {/*<Button to='/homes'>*/}
+                        {/*    Let's Chat <IoMdArrowRoundForward />*/}
+                        {/*</Button>*/}
                     </Contact>
                 </FooterBottom>
                 <CopyRight>&copy; 2024 by Fluffy Fluffy. All rights reserved.</CopyRight>

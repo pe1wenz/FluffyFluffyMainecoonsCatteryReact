@@ -110,20 +110,6 @@ const KittenDetailInfo = styled.div`
     text-align: left;
 `;
 
-// const YoutubeLinkIcon = styled.div`
-//     width: 50%;
-//
-//     @media screen and (max-width: 768px) {
-//         margin-bottom: 2rem;
-//         width: 100%;
-//     }
-// `;
-//
-// const Youtube = styled(FaYoutube)`
-//     font-size: clamp(1rem, 6vw, 2rem);
-//     color: #cd853f;
-// `;
-
 
 const Litter: React.FC<LitterProps> =({kittensData}) => {
     console.log(kittensData);

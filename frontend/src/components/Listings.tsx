@@ -44,14 +44,20 @@ interface LitterInfoProps {
     to: string;
 }
 
+const ImageLink = styled(Link)`
+    
+`;
+
 
 const LitterInfo: React.FC<LitterInfoProps>  = ({ image, alt, litterName, to }) => {
     return (
             <InfoWrap>
                  <ScrollUpFadeIn >
-                <Image src={image} alt={alt} />
+                     <ImageLink to={to} rel="noopener noreferrer" target="_blank">
+                        <Image src={image} alt={alt} />
+                     </ImageLink>
                     <h2>{litterName}</h2>
-                    <InfoLink to={to}>
+                    <InfoLink to={to} rel="noopener noreferrer" target="_blank">
                         <p>View details</p>
                         <Arrow />
                     </InfoLink>
@@ -91,6 +97,9 @@ const InfoLink = styled(Link)`
     
     &:hover{
         transform: translateY(-2px);
+        p{
+            border-bottom: solid 1px #000d1a;
+        }
     }
 `;
 

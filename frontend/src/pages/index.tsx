@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import {SliderData} from "../data/SliderData";
 import InfoSection from "../components/InfoSection";
-import {InfoData} from "../data/InfoData";
+import {InfoData, KittensFeatures} from "../data/InfoData";
 import Listings from "../components/Listings";
 import Features from "../components/Features";
 import styled from "styled-components";
@@ -26,7 +26,16 @@ const Home = () =>{
                 <Listings />
             </ScrollUpFadeIn>
             <ScrollUpFadeIn >
-                <Features />
+                <Features
+                    heading={KittensFeatures.heading}
+                    paragraph1={KittensFeatures.paragraph1}
+                    paragraph2={KittensFeatures.paragraph2}
+                    button1Text={KittensFeatures.button1Text}
+                    button1Link={KittensFeatures.button1Link}
+                    button2Text={KittensFeatures.button2Text}
+                    button2Link={KittensFeatures.button2Link}
+                    imageSrc={KittensFeatures.imageSrc}
+                />
             </ScrollUpFadeIn>
         </>
     )

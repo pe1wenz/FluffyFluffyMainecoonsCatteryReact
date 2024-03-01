@@ -4,12 +4,15 @@ import {LitterFListingData, LitterFCoverListingData, LitterECoverListingData} fr
 import {IoMdArrowRoundForward} from "react-icons/io";
 import {Button} from "../components/Button";
 import Litter from "./Litter";
+import Listings from "../components/Listings";
+import Features from "../components/Features";
+import {KittensFeatures} from "../data/InfoData";
 
 
 const KittensSection = styled.section`
     width: 100%;
     height: 100%;
-    padding: 5rem;
+    padding: 0rem 0 5rem;
     /* Your styles here */
 `;
 
@@ -104,26 +107,17 @@ const LitterWrapper = styled.div`
 const Kittens =() => {
     return (
         <KittensSection>
-            {/*<Heading>*/}
-            {/*    <h1>Our Litters</h1>*/}
-            {/*</Heading>*/}
-            <LitterWrapper>
-                <Litter kittensData={LitterFCoverListingData} />
-                <Litter kittensData={LitterECoverListingData} />
-            </LitterWrapper>
-            {/*<KittensWrapper>*/}
-            {/*    {litters.map((litter, index) =>(*/}
-            {/*        <LitterWrap>*/}
-            {/*            <Image src={litter.litterCoverImage} alt="litter cover image" />*/}
-            {/*            <h2>{litter.litterName}</h2>*/}
-            {/*            <h3>{litter.litterBirthday}</h3>*/}
-            {/*            <CustomButton to={`/kittens/${litter.litterLink}`} target="_blank" rel="noopener noreferrer">*/}
-            {/*                <p>view details</p>*/}
-            {/*                <Arrow />*/}
-            {/*            </CustomButton>*/}
-            {/*        </LitterWrap>*/}
-            {/*    ))}*/}
-            {/*</KittensWrapper>*/}
+            <Features
+                heading={KittensFeatures.heading}
+                paragraph1={KittensFeatures.paragraph1}
+                paragraph2={KittensFeatures.paragraph2}
+                button1Text={KittensFeatures.button1Text}
+                button1Link={KittensFeatures.button1Link}
+                button2Text={KittensFeatures.button2Text}
+                button2Link={KittensFeatures.button2Link}
+                imageSrc={KittensFeatures.imageSrc}
+            />
+            <Listings/>
         </KittensSection>
 );
 };
