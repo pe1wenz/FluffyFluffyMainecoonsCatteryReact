@@ -32,7 +32,7 @@ const ScrollUpFadeIn: React.FC<ScrollUpFadeInProps> = ({children,
                 // Check if the position is fixed
                 if (threshold == null) {
                     // eslint-disable-next-line react-hooks/exhaustive-deps
-                    threshold = rect.top + window.scrollY - 800;
+                    threshold = rect.top - window.scrollY  - 800;
                 }
             }
         };

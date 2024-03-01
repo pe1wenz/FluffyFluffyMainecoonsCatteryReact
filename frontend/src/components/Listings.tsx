@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import {IoMdArrowRoundForward} from "react-icons/io";
 import ImageOne from '../assets/images/slider_imgs/slider_img1.jpeg'
 import ImageTwo from '../assets/images/slider_imgs/slider_img2.jpeg'
+import Features from "./Features";
+import ScrollUpFadeIn from "./ScrollUpFadeIn";
 
 const Section = styled.section`
     width: 100%;
@@ -29,6 +31,7 @@ const InfoRow = styled.div`
     flex-wrap: wrap;
     padding: 1rem 2rem;
     justify-content: space-between;
+    width: 100%;
 
     @media screen and (max-width: 768px){
         flex-direction: column;
@@ -40,18 +43,23 @@ interface LitterInfoProps {
     litterName: string;
     to: string;
 }
+
+
 const LitterInfo: React.FC<LitterInfoProps>  = ({ image, alt, litterName, to }) => {
     return (
-        <InfoWrap>
-            <Image src={image} alt={alt} />
-            <h2>{litterName}</h2>
-            <InfoLink to={to}>
-                <p>View details</p>
-                <Arrow />
-            </InfoLink>
-        </InfoWrap>
+            <InfoWrap>
+                 <ScrollUpFadeIn >
+                <Image src={image} alt={alt} />
+                    <h2>{litterName}</h2>
+                    <InfoLink to={to}>
+                        <p>View details</p>
+                        <Arrow />
+                    </InfoLink>
+                 </ScrollUpFadeIn>
+            </InfoWrap>
     );
 };
+
 const InfoWrap = styled.div`
     flex: 0 0 calc(50% - 1rem);
     padding: 1rem 1rem;
@@ -106,12 +114,12 @@ const Listings = () => {
                     <h1> Our Litters</h1>
                 </Heading>
                 <InfoRow>
-                    <LitterInfo image={ImageOne} alt="kitten image" litterName="Litter F" to="/kittens/litter-f" />
-                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter E" to="/kittens/litter-e" />
-                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter D" to="/kittens/litter-e" />
-                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter C" to="/kittens/litter-e" />
-                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter B" to="/kittens/litter-e" />
-                    <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter A" to="/kittens/litter-e" />
+                        <LitterInfo image={ImageOne} alt="kitten image" litterName="Litter F" to="/kittens/litter-f" />
+                        <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter E" to="/kittens/litter-e" />
+                        <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter D" to="/kittens/litter-e" />
+                        <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter C" to="/kittens/litter-e" />
+                        <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter B" to="/kittens/litter-e" />
+                        <LitterInfo image={ImageTwo} alt="kitten image" litterName="Litter A" to="/kittens/litter-e" />
                 </InfoRow>
             </Container>
         </Section>
