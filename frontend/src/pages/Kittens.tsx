@@ -6,7 +6,7 @@ import {Button} from "../components/Button";
 import Litter from "./Litter";
 import Listings from "../components/Listings";
 import Features from "../components/Features";
-import {KittensFeatures} from "../data/InfoData";
+import {KittensFeatures2} from "../data/InfoData";
 
 
 const KittensSection = styled.section`
@@ -108,14 +108,14 @@ const Kittens =() => {
     return (
         <KittensSection>
             <Features
-                heading={KittensFeatures.heading}
-                paragraph1={KittensFeatures.paragraph1}
-                paragraph2={KittensFeatures.paragraph2}
-                button1Text={KittensFeatures.button1Text}
-                button1Link={KittensFeatures.button1Link}
-                button2Text={KittensFeatures.button2Text}
-                button2Link={KittensFeatures.button2Link}
-                imageSrc={KittensFeatures.imageSrc}
+                heading={KittensFeatures2.heading}
+                paragraph1={KittensFeatures2.paragraph1}
+                paragraph2={KittensFeatures2.paragraph2}
+                button1Text={KittensFeatures2.button1Text}
+                button1Link={KittensFeatures2.button1Link}
+                button2Text={KittensFeatures2.button2Text}
+                button2Link={KittensFeatures2.button2Link}
+                imageSrc={KittensFeatures2.imageSrc}
             />
             <Listings/>
         </KittensSection>

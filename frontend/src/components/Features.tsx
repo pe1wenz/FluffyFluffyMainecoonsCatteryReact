@@ -76,6 +76,7 @@ const ColumnRight = styled.div`
   height: 140%;
   width: 45%;
   padding-left: 1rem;
+    padding-right: 2rem;
   padding-bottom: 2rem;
 
   @media screen and (max-width: 950px) {

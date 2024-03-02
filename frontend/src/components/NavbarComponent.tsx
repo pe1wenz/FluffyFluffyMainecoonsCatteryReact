@@ -1,6 +1,5 @@
 import React , {useState, useEffect}from 'react';
 import { Link , useLocation} from 'react-router-dom';
-// import '../assets/css/NavbarComponent.css'; // Import the CSS file
 import styled, {css} from "styled-components";
 import {menuData} from "../data/MenuData";
 import {Button} from "./Button";
@@ -134,6 +133,11 @@ const NavbarComponent: React.FC<NavbarProps> = ({ toggleDropDown }) => {
             window.removeEventListener('scroll', changeBackGround)
         };
     }, []);
+
+    useEffect(() => {
+        // Scroll to the top when the location changes
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
 
     let style = {
         backgroundColor: navbar || location.pathname !== "/home" ? '#CD853F' : 'transparent',

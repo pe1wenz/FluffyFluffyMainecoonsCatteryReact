@@ -1,6 +1,6 @@
-import ImageOne from '../assets/images/slider_imgs/slider_img1.jpeg'
-import ImageTwo from '../assets/images/slider_imgs/slider_img2.jpeg'
-import KittensFeaturesImg from '../assets/images/slider_imgs/slider_img3.jpeg'
+import ImageOne from '../assets/images/infoSection_imgs/info_section_img1.jpeg'
+import KittensFeaturesImg from '../assets/images/features_imgs/feature_img1.jpeg'
+import KittensFeaturesImg2 from '../assets/images/features_imgs/feature_img3.jpeg'
 
 export const InfoData = {
     heading: 'About Maine Coon Cat',
@@ -18,16 +18,6 @@ export const InfoData = {
     delay: 100
 }
 
-export const InfoDataTwo = {
-    heading: 'heading 2',
-    paragraphOne: 'paragraph3',
-    paragraphTwo: 'paragraph4',
-    buttonLabel: 'View homes2',
-    image: ImageTwo,
-    reverse: true,
-    delay: 300
-}
-
 export const KittensFeatures = {
     heading: "Adorable Kittens Waiting for You",
     paragraph1: "Explore our latest litters of cute and playful kittens.",
@@ -37,6 +27,21 @@ export const KittensFeatures = {
     button2Text: "How To Apply",
     button2Link: "/contact",
     imageSrc: KittensFeaturesImg,
+    // customButton: {
+    //     text: "Learn More",
+    //     link: "https://example.com/learn-more",
+    // },
+};
+
+export const KittensFeatures2 = {
+    heading: "Adorable Kittens Waiting for You",
+    paragraph1: "Explore our latest litters of cute and playful kittens.",
+    paragraph2: "Find your perfect feline companion with Fluffy Fluffy Cattery.",
+    button1Text: "Application Portal",
+    button1Link: "/kittens",
+    button2Text: "How To Apply",
+    button2Link: "/contact",
+    imageSrc: KittensFeaturesImg2,
     // customButton: {
     //     text: "Learn More",
     //     link: "https://example.com/learn-more",
