@@ -70,6 +70,7 @@ const LitterInfo: React.FC<LitterInfoProps>  = ({ image, alt, litterName, to }) 
             </InfoWrap>
     );
 };
+
 const InfoContent = styled.div`
     border: solid 1px #000d1a;
 `;

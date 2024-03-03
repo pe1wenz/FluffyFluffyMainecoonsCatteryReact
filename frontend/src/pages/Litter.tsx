@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Hero from "../components/Hero";
-import Gallery from "../components/Gallery";
-import {defaultPhotos} from "../data/LitterListingData";
+import "react-image-gallery/styles/css/image-gallery.css";
+import ImageGallery from "react-image-gallery";
 
 interface LitterProps {
     kittensData: KittenData[];
@@ -17,12 +16,9 @@ interface KittenData{
     path:string,
     litterName:string,
     images: {
-        image: string;
-        title: string;
-        comment: string;
-        label: string;
-        path: string;
-        alt: string;
+        original:string;
+        thumbnail:string;
+        comment:string;
     }[]
 }
 
@@ -34,10 +30,29 @@ const LitterSection = styled.section`
 
 const Heading = styled.div`
     font-size: 1.5rem;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0;
     //margin-bottom: 40px;
     margin-top: 25px;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-family: "Space Grotesk", sans-serif;
+        display: inline-block;
+        color: black;
+        line-height: 1.2;
+        font-weight: 500;
+        font-size: 80px;
+    }
+    h2{
+        font-family: "Space Grotesk", sans-serif;
+        text-transform: uppercase;
+        color: black;
+        font-size: 24px;
+        border-bottom: solid 7px #CD853F;
+        margin-right: 1rem;
+    }
 
     @media screen and (max-width: 768px) {
         text-align: start;
@@ -66,18 +81,20 @@ const PhotoSetWrapper = styled.div`
 `;
 
 const CustomHeroContainer = styled.div`
-    background-color: #f0f0f0;
     width: 100%;
-    height: 100vh;
-    margin: 0 0 2rem;
-    @media screen and (max-width: 768px) {
-        height: 50vh;
+    height: 50%;
+    padding: 0 0 2rem;
+
+    .image-gallery-bullets .image-gallery-bullet {
+        &.active {
+            background: #CD853F;
+        }
     }
 `;
 
 const KittenInfoWrapper = styled.div`
-    margin-bottom: 1rem;
-    text-align: center;
+    //margin-bottom: 1rem;
+    text-align: start;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -100,44 +117,55 @@ const KittenInfoWrapper = styled.div`
         font-size: 16px;
 
     }
+    
+    @media screen and (max-width: 768px) {
+        justify-content: start;
+        margin-left: 15px;
+        padding-left: 16px;
+    }
 
 
 `;
 
 const KittenDetailInfo = styled.div`
     flex-direction: column;
-    margin: 0.5rem;
+    margin: 0 0.5rem 0.5rem 0.5rem;
     text-align: left;
+    justify-content: center;
 `;
 
 
 const Litter: React.FC<LitterProps> =({kittensData}) => {
-    console.log(kittensData);
     return (
         <LitterSection>
 
             <Heading>
-                <h1>Litter {kittensData[0].litterName}</h1>
+                <h2>Litter</h2> <h1>{kittensData[0].litterName}</h1>
             </Heading>
                <KittenWrapper>
                    {kittensData.map((kitten, index) =>(
-                       <PhotoSetWrapper>
+                       <PhotoSetWrapper key={index}>
                            <KittenInfoWrapper>
                                    <h2>{kitten.name}</h2>
                                <KittenDetailInfo>
+                                   <h3>{kitten.gender}</h3>
                                    <h3>{kitten.color}</h3>
                                    <h3>{kitten.birthday}</h3>
                                    <h3>{kitten.availability}</h3>
                                </KittenDetailInfo>
                            </KittenInfoWrapper>
                            <CustomHeroContainer>
-                               {/*<Gallery photos={defaultPhotos} />*/}
-                               <Hero slides={kitten.images}/>
-                               {/*<YoutubeLinkIcon>*/}
-                               {/*    <a href={kitten.path} rel="noopener noreferrer" target="_blank">*/}
-                               {/*        <Youtube/>*/}
-                               {/*    </a>*/}
-                               {/*</YoutubeLinkIcon>*/}
+                               <ImageGallery
+                                   items={kitten.images}
+                                   showBullets={true}
+                                   showPlayButton={false}
+                                   showFullscreenButton={true}
+                                   showNav={false}
+                                   autoPlay={true}
+                                   slideInterval={4000}
+                                   slideDuration={900}
+                                   slideOnThumbnailOver={true}
+                               />
                            </CustomHeroContainer>
                        </PhotoSetWrapper>
                    ))}
