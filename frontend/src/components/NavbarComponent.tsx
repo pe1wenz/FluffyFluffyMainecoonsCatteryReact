@@ -3,7 +3,7 @@ import { Link , useLocation} from 'react-router-dom';
 import styled, {css} from "styled-components";
 import {menuData} from "../data/MenuData";
 import {Button} from "./Button";
-import {FaBars} from "react-icons/fa";
+import {FaBarsStaggered} from "react-icons/fa6";
 
 const Nav = styled.nav`
     height: 60px;
@@ -53,7 +53,7 @@ const Logo = styled(Link)`
     }
 `;
 
-const MenuBars = styled(FaBars)`
+const MenuBars = styled(FaBarsStaggered)`
     display: none;
 
     @media screen and (max-width: 768px) {

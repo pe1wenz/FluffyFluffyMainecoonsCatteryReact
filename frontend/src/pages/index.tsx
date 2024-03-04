@@ -13,9 +13,10 @@ const HeroContainer = styled.div`
 `;
 
 const Home = () =>{
+
+
     return(
         <>
-
             <HeroContainer>
                 <Hero slides={SliderData}/>
             </HeroContainer>

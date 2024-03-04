@@ -1,8 +1,12 @@
-import React from "react";
+import React, { lazy, Suspense } from 'react';
 import styled from "styled-components";
-import Listings from "../components/Listings";
-import Features from "../components/Features";
+// import Listings from "../components/Listings";
+// import Features from "../components/Features";
 import {KittensFeatures2} from "../data/InfoData";
+import LoadingIndicator from "../components/LoadingIndicator";
+
+const Features = lazy(() => import("../components/Features"));
+const Listings = lazy(() => import('../components/Listings'));
 
 
 const KittensSection = styled.section`
@@ -14,19 +18,22 @@ const KittensSection = styled.section`
 
 const Kittens =() => {
     return (
-        <KittensSection>
-            <Features
-                heading={KittensFeatures2.heading}
-                paragraph1={KittensFeatures2.paragraph1}
-                paragraph2={KittensFeatures2.paragraph2}
-                button1Text={KittensFeatures2.button1Text}
-                button1Link={KittensFeatures2.button1Link}
-                button2Text={KittensFeatures2.button2Text}
-                button2Link={KittensFeatures2.button2Link}
-                imageSrc={KittensFeatures2.imageSrc}
-            />
-            <Listings/>
-        </KittensSection>
+        <Suspense fallback={<LoadingIndicator />}>
+            <KittensSection>
+                <Features
+                    heading={KittensFeatures2.heading}
+                    paragraph1={KittensFeatures2.paragraph1}
+                    paragraph2={KittensFeatures2.paragraph2}
+                    button1Text={KittensFeatures2.button1Text}
+                    button1Link={KittensFeatures2.button1Link}
+                    button2Text={KittensFeatures2.button2Text}
+                    button2Link={KittensFeatures2.button2Link}
+                    imageSrc={KittensFeatures2.imageSrc}
+                />
+                <Listings/>
+            </KittensSection>
+        </Suspense>
+
 );
 };
 
