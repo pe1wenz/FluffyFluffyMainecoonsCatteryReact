@@ -105,7 +105,11 @@ const InfoLink = styled(Link)`
     color: #000d1a;
     width: 140px;
     transition: 0.3s;
-    
+    p{
+        border-bottom: solid 1px transparent;
+    }
+
+
     &:hover{
         transform: translateY(-2px);
         p{
@@ -121,6 +125,11 @@ const Image = styled.img`
     max-height: 400px;
     object-fit: scale-down;
     margin-bottom: 1rem;
+    transition: 0.3s;
+    
+    &:hover{
+        transform: scale(1.05);
+    }
 `;
 const Arrow = styled(IoMdArrowRoundForward)`
     margin-left: 10px;

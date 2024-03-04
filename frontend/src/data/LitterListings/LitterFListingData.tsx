@@ -1,235 +1,235 @@
 // faith photos
-import Faith4W1 from '../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith1.jpeg';
-import Faith4W2 from '../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith2.jpeg';
-import Faith4W3 from '../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith3.jpeg';
-import Faith4W4 from '../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith4.jpeg';
-import Faith4W5 from '../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith5.jpeg';
-import Faith4W6 from '../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith6.jpeg';
+import Faith4W1 from '../../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith1.jpeg';
+import Faith4W2 from '../../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith2.jpeg';
+import Faith4W3 from '../../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith3.jpeg';
+import Faith4W4 from '../../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith4.jpeg';
+import Faith4W5 from '../../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith5.jpeg';
+import Faith4W6 from '../../assets/images/litter-images/litter-f/Faith/photos/4weeks/Faith6.jpeg';
 
-import Faith6W1 from '../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith1.jpeg';
-import Faith6W2 from '../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith2.jpeg';
-import Faith6W3 from '../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith3.jpeg';
-import Faith6W4 from '../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith4.jpeg';
-import Faith6W5 from '../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith5.jpeg';
-import Faith6W6 from '../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith6.jpeg';
+import Faith6W1 from '../../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith1.jpeg';
+import Faith6W2 from '../../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith2.jpeg';
+import Faith6W3 from '../../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith3.jpeg';
+import Faith6W4 from '../../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith4.jpeg';
+import Faith6W5 from '../../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith5.jpeg';
+import Faith6W6 from '../../assets/images/litter-images/litter-f/Faith/photos/6weeks/Faith6.jpeg';
 
-import Faith11W1 from '../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith1.jpeg';
-import Faith11W2 from '../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith2.jpeg';
-import Faith11W3 from '../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith3.jpeg';
-import Faith11W4 from '../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith4.jpeg';
-import Faith11W5 from '../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith5.jpeg';
-import Faith11W6 from '../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith6.jpeg';
+import Faith11W1 from '../../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith1.jpeg';
+import Faith11W2 from '../../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith2.jpeg';
+import Faith11W3 from '../../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith3.jpeg';
+import Faith11W4 from '../../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith4.jpeg';
+import Faith11W5 from '../../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith5.jpeg';
+import Faith11W6 from '../../assets/images/litter-images/litter-f/Faith/photos/11weeks/Faith6.jpeg';
 
-import Faith14W1 from '../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith1.jpeg';
-import Faith14W2 from '../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith2.jpeg';
-import Faith14W3 from '../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith3.jpeg';
-import Faith14W4 from '../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith4.jpeg';
-import Faith14W5 from '../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith5.jpeg';
-import Faith14W6 from '../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith6.jpeg';
+import Faith14W1 from '../../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith1.jpeg';
+import Faith14W2 from '../../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith2.jpeg';
+import Faith14W3 from '../../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith3.jpeg';
+import Faith14W4 from '../../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith4.jpeg';
+import Faith14W5 from '../../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith5.jpeg';
+import Faith14W6 from '../../assets/images/litter-images/litter-f/Faith/photos/14weeks/Faith6.jpeg';
 
 // farley photos
-import Farley4W1 from '../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley1.jpeg';
-import Farley4W2 from '../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley2.jpeg';
-import Farley4W3 from '../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley3.jpeg';
-import Farley4W4 from '../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley4.jpeg';
-import Farley4W5 from '../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley5.jpeg';
-import Farley4W6 from '../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley6.jpeg';
+import Farley4W1 from '../../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley1.jpeg';
+import Farley4W2 from '../../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley2.jpeg';
+import Farley4W3 from '../../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley3.jpeg';
+import Farley4W4 from '../../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley4.jpeg';
+import Farley4W5 from '../../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley5.jpeg';
+import Farley4W6 from '../../assets/images/litter-images/litter-f/Farley/photos/4weeks/Farley6.jpeg';
 
-import Farley6W1 from '../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley1.jpeg';
-import Farley6W2 from '../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley2.jpeg';
-import Farley6W3 from '../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley3.jpeg';
-import Farley6W4 from '../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley4.jpeg';
-import Farley6W5 from '../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley5.jpeg';
-import Farley6W6 from '../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley6.jpeg';
+import Farley6W1 from '../../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley1.jpeg';
+import Farley6W2 from '../../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley2.jpeg';
+import Farley6W3 from '../../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley3.jpeg';
+import Farley6W4 from '../../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley4.jpeg';
+import Farley6W5 from '../../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley5.jpeg';
+import Farley6W6 from '../../assets/images/litter-images/litter-f/Farley/photos/6weeks/Farley6.jpeg';
 
-import Farley11W1 from '../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley1.jpeg';
-import Farley11W2 from '../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley2.jpeg';
-import Farley11W3 from '../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley3.jpeg';
-import Farley11W4 from '../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley4.jpeg';
-import Farley11W5 from '../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley5.jpeg';
-import Farley11W6 from '../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley6.jpeg';
+import Farley11W1 from '../../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley1.jpeg';
+import Farley11W2 from '../../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley2.jpeg';
+import Farley11W3 from '../../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley3.jpeg';
+import Farley11W4 from '../../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley4.jpeg';
+import Farley11W5 from '../../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley5.jpeg';
+import Farley11W6 from '../../assets/images/litter-images/litter-f/Farley/photos/11weeks/Farley6.jpeg';
 
-import Farley14W1 from '../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley1.jpeg';
-import Farley14W2 from '../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley2.jpeg';
-import Farley14W3 from '../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley3.jpeg';
-import Farley14W4 from '../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley4.jpeg';
-import Farley14W5 from '../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley5.jpeg';
-import Farley14W6 from '../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley6.jpeg';
+import Farley14W1 from '../../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley1.jpeg';
+import Farley14W2 from '../../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley2.jpeg';
+import Farley14W3 from '../../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley3.jpeg';
+import Farley14W4 from '../../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley4.jpeg';
+import Farley14W5 from '../../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley5.jpeg';
+import Farley14W6 from '../../assets/images/litter-images/litter-f/Farley/photos/14weeks/Farley6.jpeg';
 
 // finley photos
-import Finley4W1 from '../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley1.jpeg';
-import Finley4W2 from '../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley2.jpeg';
-import Finley4W3 from '../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley3.jpeg';
-import Finley4W4 from '../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley4.jpeg';
-import Finley4W5 from '../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley5.jpeg';
-import Finley4W6 from '../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley6.jpeg';
+import Finley4W1 from '../../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley1.jpeg';
+import Finley4W2 from '../../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley2.jpeg';
+import Finley4W3 from '../../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley3.jpeg';
+import Finley4W4 from '../../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley4.jpeg';
+import Finley4W5 from '../../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley5.jpeg';
+import Finley4W6 from '../../assets/images/litter-images/litter-f/Finley/photos/4weeks/Finley6.jpeg';
 
-import Finley6W1 from '../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley1.jpeg';
-import Finley6W2 from '../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley2.jpeg';
-import Finley6W3 from '../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley3.jpeg';
-import Finley6W4 from '../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley4.jpeg';
-import Finley6W5 from '../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley5.jpeg';
-import Finley6W6 from '../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley6.jpeg';
+import Finley6W1 from '../../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley1.jpeg';
+import Finley6W2 from '../../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley2.jpeg';
+import Finley6W3 from '../../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley3.jpeg';
+import Finley6W4 from '../../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley4.jpeg';
+import Finley6W5 from '../../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley5.jpeg';
+import Finley6W6 from '../../assets/images/litter-images/litter-f/Finley/photos/6weeks/Finley6.jpeg';
 
-import Finley11W1 from '../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley1.jpeg';
-import Finley11W2 from '../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley2.jpeg';
-import Finley11W3 from '../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley3.jpeg';
-import Finley11W4 from '../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley4.jpeg';
-import Finley11W5 from '../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley5.jpeg';
-import Finley11W6 from '../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley6.jpeg';
+import Finley11W1 from '../../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley1.jpeg';
+import Finley11W2 from '../../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley2.jpeg';
+import Finley11W3 from '../../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley3.jpeg';
+import Finley11W4 from '../../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley4.jpeg';
+import Finley11W5 from '../../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley5.jpeg';
+import Finley11W6 from '../../assets/images/litter-images/litter-f/Finley/photos/11weeks/Finley6.jpeg';
 
-import Finley14W1 from '../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley1.jpeg';
-import Finley14W2 from '../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley2.jpeg';
-import Finley14W3 from '../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley3.jpeg';
-import Finley14W4 from '../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley4.jpeg';
-import Finley14W5 from '../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley5.jpeg';
-import Finley14W6 from '../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley6.jpeg';
+import Finley14W1 from '../../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley1.jpeg';
+import Finley14W2 from '../../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley2.jpeg';
+import Finley14W3 from '../../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley3.jpeg';
+import Finley14W4 from '../../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley4.jpeg';
+import Finley14W5 from '../../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley5.jpeg';
+import Finley14W6 from '../../assets/images/litter-images/litter-f/Finley/photos/14weeks/Finley6.jpeg';
 
 // floyd photos
-import Floyd4W1 from '../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd1.jpeg';
-import Floyd4W2 from '../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd2.jpeg';
-import Floyd4W3 from '../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd3.jpeg';
-import Floyd4W4 from '../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd4.jpeg';
-import Floyd4W5 from '../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd5.jpeg';
-import Floyd4W6 from '../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd6.jpeg';
+import Floyd4W1 from '../../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd1.jpeg';
+import Floyd4W2 from '../../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd2.jpeg';
+import Floyd4W3 from '../../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd3.jpeg';
+import Floyd4W4 from '../../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd4.jpeg';
+import Floyd4W5 from '../../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd5.jpeg';
+import Floyd4W6 from '../../assets/images/litter-images/litter-f/Floyd/photos/4weeks/Floyd6.jpeg';
 
-import Floyd6W1 from '../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd1.jpeg';
-import Floyd6W2 from '../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd2.jpeg';
-import Floyd6W3 from '../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd3.jpeg';
-import Floyd6W4 from '../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd4.jpeg';
-import Floyd6W5 from '../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd5.jpeg';
-import Floyd6W6 from '../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd6.jpeg';
+import Floyd6W1 from '../../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd1.jpeg';
+import Floyd6W2 from '../../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd2.jpeg';
+import Floyd6W3 from '../../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd3.jpeg';
+import Floyd6W4 from '../../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd4.jpeg';
+import Floyd6W5 from '../../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd5.jpeg';
+import Floyd6W6 from '../../assets/images/litter-images/litter-f/Floyd/photos/6weeks/Floyd6.jpeg';
 
-import Floyd11W1 from '../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd1.jpeg';
-import Floyd11W2 from '../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd2.jpeg';
-import Floyd11W3 from '../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd3.jpeg';
-import Floyd11W4 from '../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd4.jpeg';
-import Floyd11W5 from '../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd5.jpeg';
-import Floyd11W6 from '../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd6.jpeg';
+import Floyd11W1 from '../../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd1.jpeg';
+import Floyd11W2 from '../../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd2.jpeg';
+import Floyd11W3 from '../../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd3.jpeg';
+import Floyd11W4 from '../../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd4.jpeg';
+import Floyd11W5 from '../../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd5.jpeg';
+import Floyd11W6 from '../../assets/images/litter-images/litter-f/Floyd/photos/11weeks/Floyd6.jpeg';
 
-import Floyd14W1 from '../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd1.jpeg';
-import Floyd14W2 from '../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd2.jpeg';
-import Floyd14W3 from '../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd3.jpeg';
-import Floyd14W4 from '../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd4.jpeg';
-import Floyd14W5 from '../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd5.jpeg';
-import Floyd14W6 from '../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd6.jpeg';
+import Floyd14W1 from '../../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd1.jpeg';
+import Floyd14W2 from '../../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd2.jpeg';
+import Floyd14W3 from '../../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd3.jpeg';
+import Floyd14W4 from '../../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd4.jpeg';
+import Floyd14W5 from '../../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd5.jpeg';
+import Floyd14W6 from '../../assets/images/litter-images/litter-f/Floyd/photos/14weeks/Floyd6.jpeg';
 
 // franky photos
-import Franky4W1 from '../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky1.jpeg';
-import Franky4W2 from '../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky2.jpeg';
-import Franky4W3 from '../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky3.jpeg';
-import Franky4W4 from '../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky4.jpeg';
-import Franky4W5 from '../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky5.jpeg';
-import Franky4W6 from '../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky6.jpeg';
+import Franky4W1 from '../../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky1.jpeg';
+import Franky4W2 from '../../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky2.jpeg';
+import Franky4W3 from '../../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky3.jpeg';
+import Franky4W4 from '../../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky4.jpeg';
+import Franky4W5 from '../../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky5.jpeg';
+import Franky4W6 from '../../assets/images/litter-images/litter-f/Franky/photos/4weeks/Franky6.jpeg';
 
-import Franky6W1 from '../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky1.jpeg';
-import Franky6W2 from '../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky2.jpeg';
-import Franky6W3 from '../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky3.jpeg';
-import Franky6W4 from '../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky4.jpeg';
-import Franky6W5 from '../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky5.jpeg';
-import Franky6W6 from '../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky6.jpeg';
+import Franky6W1 from '../../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky1.jpeg';
+import Franky6W2 from '../../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky2.jpeg';
+import Franky6W3 from '../../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky3.jpeg';
+import Franky6W4 from '../../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky4.jpeg';
+import Franky6W5 from '../../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky5.jpeg';
+import Franky6W6 from '../../assets/images/litter-images/litter-f/Franky/photos/6weeks/Franky6.jpeg';
 
-import Franky11W1 from '../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky1.jpeg';
-import Franky11W2 from '../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky2.jpeg';
-import Franky11W3 from '../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky3.jpeg';
-import Franky11W4 from '../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky4.jpeg';
-import Franky11W5 from '../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky5.jpeg';
-import Franky11W6 from '../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky6.jpeg';
+import Franky11W1 from '../../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky1.jpeg';
+import Franky11W2 from '../../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky2.jpeg';
+import Franky11W3 from '../../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky3.jpeg';
+import Franky11W4 from '../../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky4.jpeg';
+import Franky11W5 from '../../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky5.jpeg';
+import Franky11W6 from '../../assets/images/litter-images/litter-f/Franky/photos/11weeks/Franky6.jpeg';
 
-import Franky14W1 from '../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky1.jpeg';
-import Franky14W2 from '../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky2.jpeg';
-import Franky14W3 from '../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky3.jpeg';
-import Franky14W4 from '../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky4.jpeg';
-import Franky14W5 from '../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky5.jpeg';
-import Franky14W6 from '../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky6.jpeg';
+import Franky14W1 from '../../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky1.jpeg';
+import Franky14W2 from '../../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky2.jpeg';
+import Franky14W3 from '../../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky3.jpeg';
+import Franky14W4 from '../../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky4.jpeg';
+import Franky14W5 from '../../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky5.jpeg';
+import Franky14W6 from '../../assets/images/litter-images/litter-f/Franky/photos/14weeks/Franky6.jpeg';
 
 // franz photos
-import Franz4W1 from '../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz1.jpeg';
-import Franz4W2 from '../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz2.jpeg';
-import Franz4W3 from '../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz3.jpeg';
-import Franz4W4 from '../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz4.jpeg';
-import Franz4W5 from '../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz5.jpeg';
-import Franz4W6 from '../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz6.jpeg';
+import Franz4W1 from '../../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz1.jpeg';
+import Franz4W2 from '../../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz2.jpeg';
+import Franz4W3 from '../../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz3.jpeg';
+import Franz4W4 from '../../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz4.jpeg';
+import Franz4W5 from '../../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz5.jpeg';
+import Franz4W6 from '../../assets/images/litter-images/litter-f/Franz/photos/4weeks/Franz6.jpeg';
 
-import Franz6W1 from '../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz1.jpeg';
-import Franz6W2 from '../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz2.jpeg';
-import Franz6W3 from '../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz3.jpeg';
-import Franz6W4 from '../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz4.jpeg';
-import Franz6W5 from '../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz5.jpeg';
-import Franz6W6 from '../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz6.jpeg';
+import Franz6W1 from '../../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz1.jpeg';
+import Franz6W2 from '../../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz2.jpeg';
+import Franz6W3 from '../../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz3.jpeg';
+import Franz6W4 from '../../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz4.jpeg';
+import Franz6W5 from '../../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz5.jpeg';
+import Franz6W6 from '../../assets/images/litter-images/litter-f/Franz/photos/6weeks/Franz6.jpeg';
 
-import Franz11W1 from '../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz1.jpeg';
-import Franz11W2 from '../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz2.jpeg';
-import Franz11W3 from '../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz3.jpeg';
-import Franz11W4 from '../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz4.jpeg';
-import Franz11W5 from '../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz5.jpeg';
-import Franz11W6 from '../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz6.jpeg';
+import Franz11W1 from '../../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz1.jpeg';
+import Franz11W2 from '../../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz2.jpeg';
+import Franz11W3 from '../../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz3.jpeg';
+import Franz11W4 from '../../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz4.jpeg';
+import Franz11W5 from '../../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz5.jpeg';
+import Franz11W6 from '../../assets/images/litter-images/litter-f/Franz/photos/11weeks/Franz6.jpeg';
 
-import Franz14W1 from '../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz1.jpeg';
-import Franz14W2 from '../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz2.jpeg';
-import Franz14W3 from '../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz3.jpeg';
-import Franz14W4 from '../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz4.jpeg';
-import Franz14W5 from '../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz5.jpeg';
-import Franz14W6 from '../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz6.jpeg';
+import Franz14W1 from '../../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz1.jpeg';
+import Franz14W2 from '../../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz2.jpeg';
+import Franz14W3 from '../../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz3.jpeg';
+import Franz14W4 from '../../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz4.jpeg';
+import Franz14W5 from '../../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz5.jpeg';
+import Franz14W6 from '../../assets/images/litter-images/litter-f/Franz/photos/14weeks/Franz6.jpeg';
 
 // freddy photos
-import Freddy4W1 from '../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy1.jpeg';
-import Freddy4W2 from '../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy2.jpeg';
-import Freddy4W3 from '../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy3.jpeg';
-import Freddy4W4 from '../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy4.jpeg';
-import Freddy4W5 from '../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy5.jpeg';
-import Freddy4W6 from '../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy6.jpeg';
+import Freddy4W1 from '../../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy1.jpeg';
+import Freddy4W2 from '../../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy2.jpeg';
+import Freddy4W3 from '../../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy3.jpeg';
+import Freddy4W4 from '../../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy4.jpeg';
+import Freddy4W5 from '../../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy5.jpeg';
+import Freddy4W6 from '../../assets/images/litter-images/litter-f/Freddy/photos/4weeks/Freddy6.jpeg';
 
-import Freddy6W1 from '../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy1.jpeg';
-import Freddy6W2 from '../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy2.jpeg';
-import Freddy6W3 from '../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy3.jpeg';
-import Freddy6W4 from '../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy4.jpeg';
-import Freddy6W5 from '../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy5.jpeg';
-import Freddy6W6 from '../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy6.jpeg';
+import Freddy6W1 from '../../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy1.jpeg';
+import Freddy6W2 from '../../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy2.jpeg';
+import Freddy6W3 from '../../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy3.jpeg';
+import Freddy6W4 from '../../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy4.jpeg';
+import Freddy6W5 from '../../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy5.jpeg';
+import Freddy6W6 from '../../assets/images/litter-images/litter-f/Freddy/photos/6weeks/Freddy6.jpeg';
 
-import Freddy11W1 from '../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy1.jpeg';
-import Freddy11W2 from '../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy2.jpeg';
-import Freddy11W3 from '../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy3.jpeg';
-import Freddy11W4 from '../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy4.jpeg';
-import Freddy11W5 from '../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy5.jpeg';
-import Freddy11W6 from '../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy6.jpeg';
+import Freddy11W1 from '../../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy1.jpeg';
+import Freddy11W2 from '../../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy2.jpeg';
+import Freddy11W3 from '../../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy3.jpeg';
+import Freddy11W4 from '../../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy4.jpeg';
+import Freddy11W5 from '../../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy5.jpeg';
+import Freddy11W6 from '../../assets/images/litter-images/litter-f/Freddy/photos/11weeks/Freddy6.jpeg';
 
-import Freddy14W1 from '../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy1.jpeg';
-import Freddy14W2 from '../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy2.jpeg';
-import Freddy14W3 from '../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy3.jpeg';
-import Freddy14W4 from '../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy4.jpeg';
-import Freddy14W5 from '../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy5.jpeg';
-import Freddy14W6 from '../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy6.jpeg';
+import Freddy14W1 from '../../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy1.jpeg';
+import Freddy14W2 from '../../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy2.jpeg';
+import Freddy14W3 from '../../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy3.jpeg';
+import Freddy14W4 from '../../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy4.jpeg';
+import Freddy14W5 from '../../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy5.jpeg';
+import Freddy14W6 from '../../assets/images/litter-images/litter-f/Freddy/photos/14weeks/Freddy6.jpeg';
 
 
 // fredo photos
-import Fredo4W1 from '../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo1.jpeg';
-import Fredo4W2 from '../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo2.jpeg';
-import Fredo4W3 from '../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo3.jpeg';
-import Fredo4W4 from '../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo4.jpeg';
-import Fredo4W5 from '../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo5.jpeg';
-import Fredo4W6 from '../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo6.jpeg';
+import Fredo4W1 from '../../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo1.jpeg';
+import Fredo4W2 from '../../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo2.jpeg';
+import Fredo4W3 from '../../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo3.jpeg';
+import Fredo4W4 from '../../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo4.jpeg';
+import Fredo4W5 from '../../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo5.jpeg';
+import Fredo4W6 from '../../assets/images/litter-images/litter-f/Fredo/photos/4weeks/Fredo6.jpeg';
 
-import Fredo6W1 from '../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo1.jpeg';
-import Fredo6W2 from '../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo2.jpeg';
-import Fredo6W3 from '../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo3.jpeg';
-import Fredo6W4 from '../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo4.jpeg';
-import Fredo6W5 from '../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo5.jpeg';
-import Fredo6W6 from '../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo6.jpeg';
+import Fredo6W1 from '../../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo1.jpeg';
+import Fredo6W2 from '../../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo2.jpeg';
+import Fredo6W3 from '../../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo3.jpeg';
+import Fredo6W4 from '../../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo4.jpeg';
+import Fredo6W5 from '../../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo5.jpeg';
+import Fredo6W6 from '../../assets/images/litter-images/litter-f/Fredo/photos/6weeks/Fredo6.jpeg';
 
-import Fredo11W1 from '../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo1.jpeg';
-import Fredo11W2 from '../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo2.jpeg';
-import Fredo11W3 from '../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo3.jpeg';
-import Fredo11W4 from '../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo4.jpeg';
-import Fredo11W5 from '../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo5.jpeg';
-import Fredo11W6 from '../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo6.jpeg';
+import Fredo11W1 from '../../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo1.jpeg';
+import Fredo11W2 from '../../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo2.jpeg';
+import Fredo11W3 from '../../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo3.jpeg';
+import Fredo11W4 from '../../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo4.jpeg';
+import Fredo11W5 from '../../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo5.jpeg';
+import Fredo11W6 from '../../assets/images/litter-images/litter-f/Fredo/photos/11weeks/Fredo6.jpeg';
 
-import Fredo14W1 from '../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo1.jpeg';
-import Fredo14W2 from '../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo2.jpeg';
-import Fredo14W3 from '../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo3.jpeg';
-import Fredo14W4 from '../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo4.jpeg';
-import Fredo14W5 from '../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo5.jpeg';
-import Fredo14W6 from '../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo6.jpeg';
+import Fredo14W1 from '../../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo1.jpeg';
+import Fredo14W2 from '../../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo2.jpeg';
+import Fredo14W3 from '../../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo3.jpeg';
+import Fredo14W4 from '../../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo4.jpeg';
+import Fredo14W5 from '../../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo5.jpeg';
+import Fredo14W6 from '../../assets/images/litter-images/litter-f/Fredo/photos/14weeks/Fredo6.jpeg';
 
 export const LitterFListingData = [
     {
@@ -1145,8 +1145,3 @@ export const LitterFListingData = [
         ]
     }
 ]
-
-export const defaultPhotos = [
-    { src: Farley4W1, width: 800, height: 600 },
-    { src: Faith4W1, width: 1600, height: 900 },
-];

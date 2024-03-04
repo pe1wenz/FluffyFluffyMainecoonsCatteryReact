@@ -9,11 +9,16 @@ import Kittens from "./pages/Kittens";
 import OurCats from "./pages/OurCats";
 import Owning from "./pages/Owning";
 import AboutUs from "./pages/AboutUs";
-import {LitterFListingData} from "./data/LitterListingData";
+import {LitterFListingData} from "./data/LitterListings/LitterFListingData";
 import Litter from "./pages/Litter";
 import ScrollUpFadeIn from "./components/ScrollUpFadeIn";
 import styled from "styled-components";
 import {IoArrowUp} from "react-icons/io5";
+import {LitterEListingData} from "./data/LitterListings/LitterEListingData";
+import {LitterDListingData} from "./data/LitterListings/LitterDListingData";
+import {LitterCListingData} from "./data/LitterListings/LitterCListingData";
+import {LitterBListingData} from "./data/LitterListings/LitterBListingData";
+import {LitterAListingData} from "./data/LitterListings/LitterAListingData";
 
 const UpArrow = styled(IoArrowUp)`
     width: 40px;
@@ -67,6 +72,11 @@ function App() {
           </Routes>
           <Routes>
               <Route path="/kittens/litter-f" element={<Litter kittensData={LitterFListingData} />} />
+              <Route path="/kittens/litter-e" element={<Litter kittensData={LitterEListingData} />} />
+              <Route path="/kittens/litter-d" element={<Litter kittensData={LitterDListingData} />} />
+              <Route path="/kittens/litter-c" element={<Litter kittensData={LitterCListingData} />} />
+              <Route path="/kittens/litter-b" element={<Litter kittensData={LitterBListingData} />} />
+              <Route path="/kittens/litter-a" element={<Litter kittensData={LitterAListingData} />} />
           </Routes>
           <Footer />
           <ScrollUpFadeIn onClick={handleScrollToTop} threshold={200}>

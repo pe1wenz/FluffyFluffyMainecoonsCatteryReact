@@ -51,7 +51,9 @@ const FooterInfo = styled.div`
         color: white;
         text-decoration: none;
         display: inline-flex;
-        
+        border-bottom: solid 1px transparent;
+
+
         &:hover{
             transform: translateY(-2px);
             border-bottom: solid 1px #cd853f;

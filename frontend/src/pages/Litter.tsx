@@ -2,11 +2,7 @@ import React, {useState} from "react";
 import styled from "styled-components";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
-import kittens from "./Kittens";
-import {Button} from "../components/Button";
-import {MdOutlineExpandMore} from "react-icons/md";
 import {BsChevronExpand} from "react-icons/bs";
-import {FaList} from "react-icons/fa6";
 import {BiSolidUpArrow} from "react-icons/bi";
 
 interface LitterProps {
